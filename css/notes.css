@@ -1,4 +1,11 @@
+/*
+COLORS:
 
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
 
 * {
     margin: 0;
@@ -65,7 +72,29 @@ body {
     animation-duration: 3s;
     animation-timing-function: ease-out;
     
+    
+    
+    
+    /*
+    backface-visibility: hidden; - this makes the animation smoother, no final adjustment
+    animation-timing-function: ease-out; -this makes the animation faster in the beginning and slower towards the end, ease-in does the opposite
+    animation-delay: 3s; - delay the animation for this amount of time after the page is finished loading
+    animation-iteration-count: 3; - how many times do you want the animation to iterate
+
+
+
+    animation-name: moveInLeft; these 3 css functions can be written in shorhand like this:
+    animation-duration: 3s; these 3 css functions can be written in shorhand like this: 
+    animation-timing-function: ease-out; these 3 css functions can be written in shorhand like this: animation: moveInLeft 3s ease-out;
+
+    
+    */
 }
+
+   /* .logo:hover {
+        animation: moveInLeft 3s ease-out;
+    }
+    */
 
 .heading-primary-main-phonetic {
     display: block;
