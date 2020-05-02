@@ -42,11 +42,16 @@ body {
 }
 
 .logo {
-    height: 35px;
+    height: 45px;
+    clip-path: polygon(30% 0%, 70% 0%, 95% 30%, 95% 69%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    
 }
 
 .text-box {
-    height: absolute;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
 }
 
 .heading-primary {
@@ -59,11 +64,38 @@ body {
     font-size: 40px;
     font-weight: 700;
     letter-spacing: 35px;
+
+    animation-name: moveInLeft;
+    animation-duration: 5s;
+}
+
+.heading-primary-main-phonetic {
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    transform: translate(25%, 0%);
+    letter-spacing: 5px;
 }
 
 .heading-primary-sub {
     display: block;
     font-size: 16px;
     font-weight: 700;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
 }
