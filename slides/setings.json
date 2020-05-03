@@ -1,0 +1,179 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true,
+    // turn it off for JS and JSX, we will do this via eslint
+    "[javascript]": {
+        "editor.formatOnSave": false
+    },
+    "[javascriptreact]": {
+        "editor.formatOnSave": false
+    },
+    // tell the ESLint plugin to run on save
+    "editor.codeActionsOnSave": {
+        "source.fixAll": t
+    },
+    // Optional BUT IMPORTANT: If you have the prettier extensio
+    "prettier.disableLanguages": [
+        "javascript",
+        "javascriptreact"
+    ],
+    "breadcrumbs.enabled": true,
+    "workbench.iconTheme": "eq-material-theme-icons-palenight",
+    "sqltools.connections": [
+        {
+            "askForPassword": false,
+            "connectionTimeout": 30,
+            "database": "world",
+            "dialect": "MySQL",
+            "name": "new",
+            "port": 3306,
+            "server": "127.0.0.1",
+            "username": "*"
+        },
+        {
+            "connectionTimeout": 30,
+            "database": "localhost",
+            "dialect": "MySQL",
+            "name": "calvi@localhost",
+            "password": "8545",
+            "port": 3306,
+            "server": "127.0.0.1",
+            "username": "calvi"
+        },
+        {
+            "connectionTimeout": 30,
+            "database": "test",
+            "dialect": "MySQL",
+            "name": "root@localhost",
+            "port": 3306,
+            "server": "localhost",
+            "username": "root"
+        },
+        {
+            "connectionTimeout": 30,
+            "database": "sys",
+            "dialect": "MySQL",
+            "name": "sys",
+            "port": 3306,
+            "server": "127.0.0.1",
+            "username": "root"
+        },
+        {
+            "connectionTimeout": 30,
+            "database": "calvi",
+            "dialect": "PostgreSQL",
+            "name": "Postgres",
+            "port": 5432,
+            "server": "127.0.0.1",
+            "username": "calvi"
+        },
+        {
+            "connectionTimeout": 30,
+            "database": "show_stopper",
+            "dialect": "PostgreSQL",
+            "name": "Postgres",
+            "port": 5432,
+            "server": "127.0.0.1",
+            "username": "root"
+        },
+        {
+            "connectionTimeout": 30,
+            "database": "show_stopper",
+            "dialect": "PostgreSQL",
+            "name": "Postgres",
+            "port": 5432,
+            "server": "127.0.0.1",
+            "username": "Postgres"
+        }
+    ],
+    "path-intellisense.showHiddenFiles": true,
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "terminal.integrated.commandsToSkipShell": [
+        "psl.stepIn",
+        "psl.stepOut",
+        "psl.stepOver",
+        "psl.sendToHostTerminal"
+    ],
+    "workbench.view.alwaysShowHeaderActions": true,
+    //"liveServer.settings.CustomBrowser": null,
+    //"liveServer.settings.port": 0,
+    "vsicons.dontShowNewVersionMessage": false,
+    //"liveServer.settings.useBrowserPreview": true,
+    "liveServer.settings.donotShowInfoMsg": false,
+    "gitlens.views.lineHistory.avatars": false,
+    "gitlens.views.search.avatars": false,
+    "gitlens.views.compare.avatars": false,
+    "gitlens.menus": {
+        "editor": {
+            "blame": false,
+            "clipboard": true,
+            "compare": true,
+            "details": false,
+            "history": true,
+            "remote": true
+        },
+        "editorGroup": {
+            "blame": true,
+            "compare": true
+        },
+        "editorTab": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "explorer": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true
+        },
+        "scmGroup": {
+            "compare": true,
+            "openClose": true,
+            "stash": true,
+            "stashInline": true
+        },
+        "scmItem": {
+            "clipboard": true,
+            "compare": true,
+            "history": true,
+            "remote": true,
+            "stash": true
+        }
+    },
+    "gitlens.views.repositories.files.layout": "list",
+    "docker.images.sortBy": "CreatedTime",
+    "git.autofetch": true,
+    "[properties]": {},
+    "git.confirmSync": false,
+    "editor.renderControlCharacters": true,
+    "workbench.settings.openDefaultSettings": true,
+    "gitlens.views.search.location": "explorer",
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.views.fileHistory.location": "explorer",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.enableSmartCommit": true,
+    "explorer.confirmDelete": false,
+    "workbench.statusBar.visible": true,
+    "gitlens.advanced.fileHistoryFollowsRenames": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    //"window.zoomLevel": 0,
+    "editor.columnSelection": true,
+    "color-highlight.markerType": "underline",
+    "color-highlight.matchWords": true,
+    "bracketPairColorizer.highlightActiveScope": true,
+    //"projectManager.groupList": "Favorites",
+    "css.lint.float": "warning",
+    "css.lint.important": "warning",
+    "css.lint.universalSelector": "warning",
+    "emmet.preferences": {
+    
+    }
+}
+
+
+
+
+// When set, serve this file (serv
+"liveServer.settings.file": "",
