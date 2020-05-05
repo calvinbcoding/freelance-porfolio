@@ -1,0 +1,27 @@
+{
+  "name": "freelance-porfolio",
+  "version": "1.0.0",
+  "description": "landing page for freelance portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calvinbcoding/freelance-porfolio.git"
+  },
+  "keywords": [
+    "freelance",
+    "content",
+    "portfolio"
+  ],
+  "author": "Calvin Bruch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calvinbcoding/freelance-porfolio/issues"
+  },
+  "homepage": "https://github.com/calvinbcoding/freelance-porfolio#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
