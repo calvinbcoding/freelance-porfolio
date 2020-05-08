@@ -11,4 +11,11 @@
     rgba($color-primary-light, 0.8),
     rgba($color-primary-dark, 0.8)),
     url(../img/nat-4.jpg);
+    background-color: cover;
+
+    transform: skewY(-5deg);
+
+    & > * {
+        transform: skewY(5deg);
+    }
 }
