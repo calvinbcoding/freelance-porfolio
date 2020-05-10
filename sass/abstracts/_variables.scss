@@ -1,15 +1,28 @@
 
-//Colors
+// My Colors
 $color-primary: #57bc90;
 $color-primary-light:#77c9d4;
 $color-primary-dark: #015249;
+
+$color-grey-slate: #a5a5af;
+
+//default colors:
+$color-primary-1: #55c57a;
+$color-primary-light-1: #7ed56f;
+$color-primary-dark-1: #28b485;
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
 
 $color-white: #fff;
 $color-black: #000;
 
 $color-grey-light-1: #f7f7f7;
 $color-grey-dark: #777;
-$color-grey-slate: #a5a5af;
+
 
 // FONT
 $default-font-size: 1.6rem;
@@ -18,3 +31,16 @@ $default-font-size: 1.6rem;
 $grid-width: 114rem;
 $gutter-vertical: 8rem;
 $gutter-horizontal: 4rem;
+
+//Other Design elements
+
+//Box-Shadow Variations
+$normal-shadow: 0 1.5rem 4rem rgba($color-black , .15);
+$shadow-photo-hover: 0 2.5rem 4rem rgba($color-black, .5);
+$shadow-photo: 0 1.5rem 4rem rgba($color-black, .4);
+
+$shadow-light-a: 0 1.5rem 4rem rgba($color-black , .1);
+$shadow-mid-light-a: 0 1.5rem 4rem rgba($color-black , .25);
+$shadow-primary-a: 0 1.5rem 4rem rgba($color-black , .5);
+$shadow-mid-dark-a: 0 1.5rem 4rem rgba($color-black , .75);
+$shadow-darkest-a: 0 1.5rem 4rem rgba($color-black , .9);
