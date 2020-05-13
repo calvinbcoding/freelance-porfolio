@@ -15,7 +15,7 @@ $color-secondary-light: #ffb900;
 $color-secondary-dark: #ff7730;
 
 $color-tertiary-light: #2998ff;
-$color-tertiary-dark: #100a44;
+$color-tertiary-dark: #150d5c;
 
 $color-white: #fff;
 $color-black: #000;
@@ -34,11 +34,11 @@ $gutter-vertical: 8rem;
 $gutter-horizontal: 4rem;
 
 //Other Design elements
-
+//rbga(85,197,122)
 //Box-Shadow Variations
 $normal-shadow: 0 1.5rem 4rem rgba(0, 0, 0, .15);
-$shadow-photo-hover: 0 2.5rem 4rem rgba(0, 0, 0, .5);
-$shadow-photo: 0 1.5rem 4rem rgba(0, 0, 0, .4);
+$shadow-photo-hover: 0 2.5rem 4rem rgba(40, 180, 143, .5);
+$shadow-photo: 0 1.5rem 4rem rgba(21, 13, 92, .4);
 
 $shadow-light-a: 0 1.5rem 4rem rgba(0, 0, 0, .1);
 $shadow-mid-light-a: 0 1.5rem 4rem rgba(0, 0, 0, .25);

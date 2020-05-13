@@ -51,10 +51,12 @@
     //FRONT-SIDE-STYLING
     &__picture {
         background-size: cover;
-        height: 23rem;
+        height: 22rem;
         background-blend-mode: hue;
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
         clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
 
             &--1 {
                 background-image: linear-gradient(to right bottom, 
