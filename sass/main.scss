@@ -19,6 +19,7 @@ COLORS {
 @import "base/typography";
 @import "base/utilities";
 
+@import "components/bg-video";
 @import "components/button";
 @import "components/card";
 @import "components/composition";
@@ -29,7 +30,6 @@ COLORS {
 @import "layout/grid";
 @import "layout/header";
 @import "layout/navigation";
-@import "layout/footer";
 
 @import "pages/home";
 
