@@ -24,10 +24,14 @@
 
     &__img {
         height: 100%;
+        transform: translateX(-3rem) scale(1.4);
+        backface-visibility: hidden;
+        transition: all .5s;
     }
 
     &__text {
         transform: skewX(12deg);
+        
     }
 
     &__caption {
@@ -35,7 +39,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, 20%);
-        color: $color-tertiary-dark;
+        color: $color-tertiary-light;
         text-transform: uppercase;
         font-size: 1.7rem;
         text-align: center;
@@ -48,6 +52,12 @@
     &:hover &__caption {
         opacity: 1;
         transform: translate(-50%, -50%);
+    }
+
+    &:hover &__img {
+        transform: translateX(-3rem) scale(1);
+        filter: blur(3px) brightness(80%);
+
     }
 
 

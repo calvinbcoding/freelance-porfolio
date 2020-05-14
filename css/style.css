@@ -229,7 +229,7 @@ body {
     backface-visibility: hidden;
     border-radius: 3px;
     overflow: hidden;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15); }
+    box-shadow: 0 1.5rem 4rem hsla(0, 0%, 0%, 0.15); }
     .card__side--front {
       background-color: #fff; }
     .card__side--back {
@@ -373,7 +373,10 @@ body {
     transform: translateX(-3rem) skewX(12deg);
     position: relative; }
   .story__img {
-    height: 100%; }
+    height: 100%;
+    transform: translateX(-3rem) scale(1.4);
+    backface-visibility: hidden;
+    transition: all .5s; }
   .story__text {
     transform: skewX(12deg); }
   .story__caption {
@@ -381,7 +384,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, 20%);
-    color: #150d5c;
+    color: #2998ff;
     text-transform: uppercase;
     font-size: 1.7rem;
     text-align: center;
@@ -391,6 +394,9 @@ body {
   .story:hover .story__caption {
     opacity: 1;
     transform: translate(-50%, -50%); }
+  .story:hover .story__img {
+    transform: translateX(-3rem) scale(1);
+    filter: blur(3px) brightness(80%); }
 
 .row {
   max-width: 114rem;
