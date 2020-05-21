@@ -29,12 +29,12 @@ body {
     box-sizing: border-box;
     padding: 3rem;
 
-    @include respond(tab-port) {
-        padding: 0;
-    }
+    // @include respond(tab-port) {
+    //     padding: 0;
+    // }
 }
 
-::selection {
-    background-color: $color-primary;
-    color: $color-white;
-}
+// ::selection {
+//     background-color: $color-primary;
+//     color: $color-white;
+// }

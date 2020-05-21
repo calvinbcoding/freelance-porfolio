@@ -80,13 +80,6 @@ html {
 body {
   box-sizing: border-box;
   padding: 3rem; }
-  @media only screen and (max-width: 56.25em) {
-    body {
-      padding: 0; } }
-
-::selection {
-  background-color: #57bc90;
-  color: #fff; }
 
 body {
   font-family: "Lato", sans-serif;

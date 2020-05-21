@@ -83,9 +83,23 @@ body {
 
 
 
-    animation-name: moveInLeft; these 3 css functions can be written in shorhand like this:
-    animation-duration: 3s; these 3 css functions can be written in shorhand like this: 
-    animation-timing-function: ease-out; these 3 css functions can be written in shorhand like this: animation: moveInLeft 3s ease-out;
+    animation-name: moveInLeft; 
+    these 3 css functions can be written in shorhand like this:
+        animation-duration: 3s; 
+    these 3 css functions can be written in shorhand like this: 
+        animation-timing-function: ease-out; 
+    
+    te
+
+
+
+        animation-name: moveInLeft;
+        animation-duration: 3s;
+        animation-timing-function: ease-out;
+    
+    these 3 css functions can be written in shorhand like this: 
+        animation: moveInLeft 3s ease-out; 
+        // basically just => animation: name, duration, timing function; 
 
     
     */
