@@ -9,15 +9,15 @@
     font-size: $default-font-size;
     transform: skewX(-12deg);
 
-    // @include respond(tab-port) {
-    //     width: 100%;
-    //     padding: 4rem;
-    //     padding-left: 7rem;
-    // }
+    @include respond(tab-port) {
+        width: 100%;
+        padding: 4rem;
+        padding-left: 7rem;
+    }
 
-    // @include respond(phone) {
-    //     transform: skewX(0);
-    // }
+    @include respond(phone) {
+        transform: skewX(0);
+    }
 
     // &__shape {
     //     width: 15rem;
@@ -63,9 +63,9 @@
     &__text {
         transform: skewX(12deg);
         
-        // @include respond(phone) {
-        //     transform: skewX(0);
-        // }
+        @include respond(phone) {
+            transform: skewX(0);
+        }
     }
 
     &__caption {
