@@ -527,7 +527,12 @@ body {
   transform: translateY(-4rem); }
 
 .form__radio-group {
+  width: 49%;
   display: inline-block; }
+  @media only screen and (max-width: 56.25em) {
+    .form__radio-group {
+      width: 100%;
+      margin-bottom: 2rem; } }
 
 .form__radio-input {
   display: none; }
@@ -536,7 +541,7 @@ body {
   font-size: 1.6rem;
   cursor: pointer;
   position: relative;
-  padding-left: 1rem; }
+  padding-left: 4.5rem; }
 
 .form__radio-button {
   height: 2rem;
