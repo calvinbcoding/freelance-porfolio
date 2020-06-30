@@ -1,6 +1,8 @@
 {
-  "typescript.tsserver.log": "normal",
   "git-graph.maxDepthOfRepoSearch": 5,
   "terminal.integrated.confirmOnExit": true,
+  "typescript.validate.enable": false,
+  "editor.minimap.enabled": false,
+  "javascript.validate.enable": false,
   
 }
