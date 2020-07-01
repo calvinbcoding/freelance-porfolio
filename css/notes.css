@@ -1,11 +1,11 @@
-/*
+/* /*
 COLORS:
 
 Light green: #7ed56f
 Medium green: #55c57a
 Dark green: #28b485
 
-*/
+
 
 * {
     margin: 0;
@@ -102,13 +102,13 @@ body {
         // basically just => animation: name, duration, timing function; 
 
     
-    */
+    
 }
 
    /* .logo:hover {
         animation: moveInLeft 3s ease-out;
     }
-    */
+    
 
 .heading-primary-main-phonetic {
     display: block;
@@ -173,4 +173,4 @@ body {
         opacity: 1;
         transform: translate(0);
     }
-}
+} */
