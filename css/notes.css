@@ -5,8 +5,8 @@ Light green: #7ed56f
 Medium green: #55c57a
 Dark green: #28b485
 
-
-
+*/
+/*
 * {
     margin: 0;
     padding: 0;
@@ -71,7 +71,7 @@ body {
     animation-name: moveInLeft;
     animation-duration: 3s;
     animation-timing-function: ease-out;
-    
+    */
     
     
     
@@ -83,33 +83,19 @@ body {
 
 
 
-    animation-name: moveInLeft; 
-    these 3 css functions can be written in shorhand like this:
-        animation-duration: 3s; 
-    these 3 css functions can be written in shorhand like this: 
-        animation-timing-function: ease-out; 
-    
-    te
-
-
-
-        animation-name: moveInLeft;
-        animation-duration: 3s;
-        animation-timing-function: ease-out;
-    
-    these 3 css functions can be written in shorhand like this: 
-        animation: moveInLeft 3s ease-out; 
-        // basically just => animation: name, duration, timing function; 
+    animation-name: moveInLeft; these 3 css functions can be written in shorhand like this:
+    animation-duration: 3s; these 3 css functions can be written in shorhand like this: 
+    animation-timing-function: ease-out; these 3 css functions can be written in shorhand like this: animation: moveInLeft 3s ease-out;
 
     
-    
+    */
 }
 
    /* .logo:hover {
         animation: moveInLeft 3s ease-out;
     }
-    
-
+    */
+/*
 .heading-primary-main-phonetic {
     display: block;
     font-size: 24px;
