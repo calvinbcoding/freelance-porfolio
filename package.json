@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/calvinbcoding/freelance-porfolio#readme",
   "devDependencies": {
-    "node-sass": "^4.14.1"
+    "node-sass": "^7.0.0"
   },
   "dependencies": {
     "live-server": "^1.2.1"
